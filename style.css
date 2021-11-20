@@ -1,5 +1,8 @@
 
 header {
+    position: fixed;
+    top: 0;
+    width: 90%;
     background-color:  #1F2937;
     text-decoration: none;
     display: flex;
@@ -43,7 +46,7 @@ header a {
   }
 
   #about {
-      height: 90vh;
+      height: 100vh;
       background-image: url(./images/about-picture.jpg);
       background-size: cover;
       display: flex;
@@ -89,4 +92,118 @@ header a {
       display: flex;
       flex-direction: column;
       align-items: center;
+      background-color: ##E3E4E6;
+      padding: 190px 0px;
   }
+
+  #pugs h3 {
+      margin-top: 0px;
+      font-size: 30px;
+  }
+
+  .images {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 50px;
+      margin: 0 50px;
+  }
+
+  .pug-image {
+      max-width: 250px;
+      height: 250px;
+      border: 3px solid #372D1F;
+      border-radius: 20px;
+  }
+
+  .image-container {
+      text-align: center;
+      color: #3B4450;
+  }
+
+  #quote{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      background-color: #E3E4E6;
+      color: #1F2937;
+      font-size: 30px;
+      font-style: italic;
+      padding: 100px 200px;
+}
+
+#quote-man{
+    font-size: 25px;
+    font-style: normal;
+    font-weight: bold;
+}
+
+#not-enough{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.forward-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #372D1F;
+    color: white;
+    border-radius: 10px;
+    margin-top: 100px;
+    padding: 15px 0;
+    padding-left: 10px;
+    width: 80vh;
+    padding-left: 100px;
+}
+
+.forward-container h4{
+    margin-bottom: -15px;
+    font-size: 20px;
+}
+
+.forward-text{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+.forward-text button{
+    margin-left: auto;
+    margin-right: 100px;
+    border: 2px solid white;
+    color: white;
+    background-color: #372D1F;
+    padding: 10px 40px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.forward-text button:hover{
+    background-color: white;
+    color: #372D1F;
+}
+
+.forward-container p{
+    font-size: 15px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    padding: 30px;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
